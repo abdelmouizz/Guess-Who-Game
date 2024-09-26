@@ -15,7 +15,7 @@ cards.forEach (card =>
 // Function to add Disabled Class to cards
 
 function theChecker(){
-    this.classList.add("disabled");
+    this.classList.toggle("disabled");
 };
 
 // Create Rest function 
@@ -23,3 +23,4 @@ function theChecker(){
 function reset(){
     cards.forEach(card => card.classList.remove("disabled"))
 };
+
