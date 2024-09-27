@@ -119,6 +119,9 @@ h1{
     background-color: rgb(5, 54, 146);
 }
 
+.highlight {
+    border: 5px solid green; /* or any other style you want */
+}
 
 footer{
     height: 100px;
